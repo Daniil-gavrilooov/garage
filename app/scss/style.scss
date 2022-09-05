@@ -1,4 +1,17 @@
 @import '_vars';
 @import '_reset';
 @import '_mixing';
+@import '_header';
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    background-color: $bg;
+}
+
+.container{
+    max-width: 1550px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
 
