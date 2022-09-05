@@ -1,3 +1,13 @@
-.sidebar{
-    
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: flex-start;
+    padding-top: 48px;
+
+    &__title {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+    }
 }

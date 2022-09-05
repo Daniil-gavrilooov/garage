@@ -3,11 +3,13 @@
 @import '_mixing';
 @import '_header';
 @import '_sidebar';
+@import '_options';
 
 body{
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     background-color: $bg;
+    color: $black;
 }
 
 .container{
